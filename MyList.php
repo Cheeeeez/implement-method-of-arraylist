@@ -88,6 +88,7 @@ class MyList
     public function clear()
     {
         $this->list = [];
+        $this->size = 0;
     }
 
     public function isInteger($toCheck)
